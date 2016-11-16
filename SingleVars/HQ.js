@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <script src="https://d3js.org/d3.v4.min.js"></script>
-  <title>Document</title>
-</head>
-<body>
-<script type="text/javascript">
+
 var width = 1024;
 var height = 768;
 var ctrl = d3.select("body").append("svg").attr("width", width).attr("height", height);
@@ -33,6 +25,3 @@ d3.csv("https://github.com/pecu/D3/HistoricalQuotes.csv",
       	.call(d3.axisLeft(y));
 	}
 );
-</script>
-</body>
-</html>
